@@ -1,31 +1,63 @@
 *{
   margin: 0;
-  padding: 0;
+  padding: 0; 
+  background-color: antiquewhite;
 }
-.App {
-  text-align: center;
-}
-/* .container{
-  width: 100%;
-  height: 100%;
-} */
+
 .header{
-  text-align: center;
-  margin-top: 30px;
+  margin-top: 10px;
+  padding-top: 15px;
+  background-color: orange;
+  height: 50px;
+ 
+}
+.header h5{
+  cursor: pointer;
+
+  margin-left: 20px;
   display: inline;
+  padding: 10px;
+  background-color: lightpink;
+}
+
+
+input{
+  cursor: pointer;
+  color: black;
+  padding: 10px;
+ 
 }
 .row-images{
-  margin-left: 30px;
+
+  margin-top: 250px;
+  margin-left: 40px;
   display: grid;
   gap: 30px;
   grid-template-columns: auto auto auto;
 
 
-  
-
 }
 
 p{
+  cursor: pointer;
   font-size: 18px;
   color: cornflowerblue;
+  text-align: center;
+
+
+}
+.suggestion{
+  background-color: lightblue;
+  padding: 10px;
+  cursor: pointer;
+  width: 180px;
+  margin-left: 530px;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+}
+
+
+.suggestion:hover{
+  background-color: yellow;
 }
