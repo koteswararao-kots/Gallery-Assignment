@@ -1,0 +1,77 @@
+
+.header{
+    text-align: center;
+    background-color:  rgb(243, 241, 241);
+  
+  
+   
+  }
+  .header-box{
+    float: right;
+    margin-top: -55px;
+    margin-right: 5px;
+    
+    
+  }
+  button{
+    width: 70px;
+    height: 50px;
+    background-color: black;
+    color: white;
+  
+  }
+  .customer-info{
+    border: 3px solid lightgray;
+    margin: 10px;
+  }
+  .order-info{
+    border: 3px solid lightgray;
+    margin: 10px ;
+    background: rgb(243, 241, 241);
+  }
+  .product-list{
+    border: 3px solid lightgray;
+    margin: 10px;
+    display: flex;
+  }
+  .customer-info-content{
+    display: flex;
+    margin-left: 5px;
+  }
+  .order-info-content{
+    display: inline-block;
+    align-content:initial;
+    /* margin: 5px 100px; */
+    margin: 0 300px 0 50px;
+  
+  }
+  .product-list-content{
+    display: inline-block;
+    margin: 2px 10px;
+  }
+  img{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+  }
+  .text{
+    font-weight: normal;
+    margin-left: 5px;
+  }
+  span{
+    color: gray;
+    margin-left: 5px;
+  }
+  .userDetails{
+    margin: 10px 5px;
+  
+  }
+  input{
+   color: yellow;
+  }
+  .checkbox{
+    margin-top: 120px;
+    width: 50px;
+    height: 50px;
+   
+  }
